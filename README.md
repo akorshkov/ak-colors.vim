@@ -7,11 +7,11 @@ My own colorscheme based on 'torte'.
 * With vim/pathogen:
 
 ```bash
-git clone https://github.com/akorshkov/vim-ak-colors.git ~/.vim/bundle/vim-ak-colors
+git clone https://github.com/akorshkov/ak-colors.vim.git ~/.vim/bundle/ak-colors.vim
 ```
 
 * With nvim Packer:
 
 ```lua
-use { "akorshkov/vim-ak-colors" }
+use { "akorshkov/ak-colors.vim" }
 ```
