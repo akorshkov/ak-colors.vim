@@ -64,7 +64,7 @@ if s:t_Co >= 256
   hi LineNr ctermfg=102 ctermbg=NONE cterm=NONE
   hi WarningMsg ctermfg=196 ctermbg=NONE cterm=NONE
   hi MatchParen ctermfg=NONE ctermbg=30 cterm=NONE
-  hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=bold
+  hi ModeMsg ctermfg=255 ctermbg=NONE cterm=bold
   hi MoreMsg ctermfg=29 ctermbg=NONE cterm=bold
   hi Question ctermfg=46 ctermbg=NONE cterm=bold
   hi SpecialKey ctermfg=51 ctermbg=NONE cterm=NONE
@@ -113,6 +113,10 @@ if s:t_Co >= 256
   hi! link DiagnosticSignWarn DiagnosticWarn
   hi! link DiagnosticSignInfo DiagnosticInfo
   hi! link DiagnosticSignHint DiagnosticHint
+
+  " looks like also standard nvim group
+  hi RedrawDebugComposed ctermbg=52
+
 
   unlet s:t_Co
   finish
