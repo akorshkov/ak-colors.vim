@@ -29,7 +29,8 @@ if s:t_Co >= 256
   hi Constant ctermfg=217 ctermbg=NONE cterm=NONE
     hi String ctermfg=71 ctermbg=NONE cterm=NONE
     hi Boolean ctermfg=39 ctermbg=NONE cterm=NONE
-  hi Identifier ctermfg=87 ctermbg=NONE cterm=NONE
+  hi Identifier ctermfg=86 ctermbg=NONE cterm=NONE
+  hi Function ctermfg=81 ctermbg=NONE cterm=NONE
   hi Statement ctermfg=227 ctermbg=NONE cterm=NONE
   hi PreProc ctermfg=211 ctermbg=NONE cterm=NONE
   hi Type ctermfg=83 ctermbg=NONE cterm=NONE
